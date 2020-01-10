@@ -1,0 +1,61 @@
+{
+  "name": "tweetdeck-unofficial",
+  "productName": "TweetDeck",
+  "desktopName": "TweetDeck",
+  "version": "1.1.1",
+  "description": "Unofficial tweetdeck Desktop app for Linux, Widnows & OSX.",
+  "author": {
+    "name": "Sofiane Hamlaoui",
+    "email": "contact@sofianehamlaoui.me",
+    "url": "http://www.sofianehamlaoui.me"
+  },
+  "license": "MIT",
+  "repository": "sofianehamlaoui/TweetDeck-Unofficial",
+  "homepage": "https://tweetdeck.sofianehamlaoui.me",
+  "engines": {
+    "node": ">=13.5.0"
+  },
+  "electronVersion": "7.1.7",
+  "scripts": {
+    "test": "xo --space",
+    "start": "electron .",
+    "build": "npm run build"
+  },
+  "files": [
+    "index.js",
+    "browser.js",
+    "browser.css",
+    "icons/Icon.icns",
+    "icons/Icon.png",
+    "icons/Icon.ico"
+  ],
+  "keywords": [
+    "electron-app",
+    "TweetDeck",
+    "SofianeHamlaoui"
+  ],
+  "dependencies": {
+    "electron-config": "^0.1.1",
+    "electron-context-menu": "^0.1.0",
+    "electron-debug": "^1.0.0",
+    "electron-dl": "^1.0.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^8.7.1",
+    "electron": "^1.7.3",
+    "xo": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/sofianehamlaoui/TweetDeck-Unofficial/issues"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ],
+    "rules": {
+      "import/no-extraneous-dependencies": 0
+    }
+  }
+}
