@@ -20,7 +20,7 @@
 [#] ~> chmod +x ./install.sh
 [#] ~> sudo ./install.sh
 ```
-and let the magic do her job ! you can now run TweetDeck from your menu or from terminal 
+and let the magic the job ! you can now run TweetDeck from your menu or from terminal 
 ```
 [#] ~> Tweetdeck 
 ```
