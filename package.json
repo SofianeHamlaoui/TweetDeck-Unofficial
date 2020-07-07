@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "electron-packager": "^8.7.1",
-    "electron": "^1.7.3",
+    "electron": "^9.1.0",
     "xo": "*"
   },
   "bugs": {
